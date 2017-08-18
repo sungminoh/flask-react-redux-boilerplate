@@ -1,5 +1,7 @@
+# -*- coding: utf-8 -*-
+"""ref: https://github.com/dternyak/React-Redux-Flask"""
 from functools import wraps
-from flask import request, g, jsonify, session
+from flask import request, jsonify, session
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 from itsdangerous import SignatureExpired, BadSignature
 from app.server.index import app
